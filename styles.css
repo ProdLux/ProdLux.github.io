@@ -177,11 +177,23 @@ body {
 }
 
 @media (max-width: 768px) {
-  .nota-fija {
-    width: 90%;
-    bottom: 60px; 
-    max-width: 100%;
-    font-size: 1.2rem; 
+  .Btn {
+    width: 45px;
+    height: 45px;
+  }
+
+  .Btn:hover {
+    width: 45px; 
+  }
+
+  .Btn:hover .sign {
+    width: 100%; 
+    padding-left: 0;
+  }
+
+  .Btn:hover .text {
+    opacity: 0;
+    width: 0%; 
   }
 }
 
