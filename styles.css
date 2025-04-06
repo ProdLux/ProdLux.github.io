@@ -173,6 +173,13 @@ body {
   z-index: 100;
 }
 
+@media (max-width: 768px) {
+  .nota-fija {
+    width: 90%; /*Ajst tmñ */
+    bottom: 60px;
+  }
+}
+
 .nota {
   text-align: center;
   font-size: 0.9rem;
@@ -205,3 +212,4 @@ body {
   font-weight: 500;
   text-decoration: none;
 }
+
